@@ -4,7 +4,7 @@ measurements=$1
 
 if [ ! -f $measurements ]
 then
-  echo "Measurements ${measurements} iile does not exist"
+  echo "Measurements ${measurements} file does not exist"
   exit 1 
 fi
 
